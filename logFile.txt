@@ -1,0 +1,1405 @@
+ginga main() remote NCLFILE
+ginga main() COMMAND = 'C:\Program Files\TeleMidia\Ginga\ginga.exe' NCLFILE = 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl'
+LocalScreenManager::createScreen argv[9]
+LocalScreenManager::createScreen PARSER argv[0] = 'C:\Program Files\TeleMidia\Ginga\ginga.exe'
+LocalScreenManager::createScreen PARSER argv[1] = '--ncl'
+LocalScreenManager::createScreen PARSER argv[2] = 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl'
+LocalScreenManager::createScreen PARSER argv[3] = '--vmode'
+LocalScreenManager::createScreen PARSER argv[4] = '854x480'
+LocalScreenManager::createScreen PARSER argv[5] = '--disable-fkeys'
+LocalScreenManager::createScreen PARSER argv[6] = '--enable-log'
+LocalScreenManager::createScreen PARSER argv[7] = 'file'
+LocalScreenManager::createScreen PARSER argv[8] = '--set-exitonend'
+SDLDeviceScreen::setEmbedFromParent: ''
+SDLDeviceScreen::getWidthResolution returns '854'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::initScreen renderer accelerated by hardware was created
+InputManager::initializeInputIntervalTime imperative = '0' declarative = '200'
+ginga main() NCLFILE = C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl
+PresentationEngineManager::openNclFile document process time: 0
+ContextManager::addContextListener
+SystemInfo::getSystemLanguage can't find 'system.language, return por
+SDLDeviceScreen::getWidthResolution returns '854'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::getWidthResolution returns '854'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::getHeightResolution returns '480'
+SDLDeviceScreen::getWidthResolution returns '854'
+PresentationContext::getPropertyValue prop 'default.focusBorderColor' == 'blue'
+PresentationContext::getPropertyValue prop 'default.focusBorderWidth' == '3'
+PresentationContext::getPropertyValue prop 'default.selBorderColor' == 'green'
+PrivateBaseContext::createPrivateBase '-1'
+FormatterMediator::printData(01FC87D0) screenId: 0 baseId: -1 playerId: C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl devClass: 0 x: 0 y: 0 w: 854 h: 480 enableGfx: 1 parentDocId:  docId: 
+FormatterMediator::addDocument(01FC87D0) call addDocument 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl'
+PATH = [C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\]
+parseRegionBase
+>>region: rgTVparseRegion
+>>region: rgInteratividadeparseRegion
+>>region: rgTemperaturaparseRegion
+parseDescriptorBase
+>>descriptor: dPrincipal
+parseDescriptor
+>>descriptor: dInteratividade
+parseDescriptor
+>>descriptorParam: 
+parseDescriptorParam
+>>descriptor: dTemperatura
+parseDescriptor
+parseConnectorBase
+>>importBase: 
+NclDocumentConverter::importDocument location 'ConnectorBase.ncl' translated URI = 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\ConnectorBase.ncl'
+PATH = [C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\]
+parseConnectorBase
+>>causalConnector: onBeginStart
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStop
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAbort
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginPause
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginResume
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginSet
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStart
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStop
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAbort
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndPause
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndResume
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndSet
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStart
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStop
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionAbort
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionPause
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionResume
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionSet
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStart
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStop
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionAbort
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionPause
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionResume
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionSet
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStartN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStopN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAbortN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStartNStopN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStartNPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStartNResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStartNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStartNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStopNStartN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStopNPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStopNResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStopNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginStopNDelayStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginSetVarNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStartN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStopN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAbortN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStartNStopN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStartNPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStartNResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStartNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStartNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStopNStartN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStopNPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStopNResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStopNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndStopNDelayStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndSetVarNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStartN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStopN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionAbortN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStartNStopN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStartNPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStartNResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStartNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStartNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStopNStartN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStopNPauseN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStopNResumeN
+parseCausalConnector
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStopNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionStopNDelayStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onSelectionSetVarNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionAbortN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionPauseN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionResumeN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStartNStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStartNPauseN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStartNResumeN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStartNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStartNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStopNStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStopNPauseN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStopNResumeN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStopNSetN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionStopNDelayStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionSetVarNDelayStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNSet
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNAbortN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNPauseN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNResumeN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNStartNStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNStopNStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>simpleCondition: 
+parseSimpleCondition
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAttNodeTestStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAttNodeTestStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAttNodeTestAbortN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAttNodeTestStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAttNodeTestStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAttNodeTestAbortN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNAttNodeTestStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onKeySelectionNAttNodeTestStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAttNodeTestStartNStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAttNodeTestStartNStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onBeginAttNodeTestSetNStartN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+>>causalConnector: onEndAttNodeTestSetNStopN
+parseCausalConnector
+>>connectorParam: 
+parseConnectorParam
+>>connectorParam: 
+parseConnectorParam
+>>compoundCondition: 
+parseCompoundCondition
+>>simpleCondition: 
+parseSimpleCondition
+>>assessmentStatement: 
+parseAssessmentStatement
+parseAttributeAssessment
+parseValueAssessment
+>>compoundAction: 
+parseCompoundAction
+>>simpleAction: 
+parseSimpleAction
+>>simpleAction: 
+parseSimpleAction
+parseMedia
+parseArea
+parseArea
+parseArea
+parseArea
+parseMedia
+parseMedia
+parseMedia
+parseMedia
+posCompileContext
+posCompileContext
+parseLink
+onBeginStart
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+onEndStop
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+onEndStopGru
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+onEndStopPoa
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+onEndStopJpa
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parseLink
+onEndAbortVideoPrincipal
+>>bind: 
+parseBind
+>>bind: 
+parseBind
+parsePort
+PrivateBaseContext::addDocument id='main' url='C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl' all done
+FormatterMediator::getDepUriFromNode checking descriptor 'dPrincipal'
+FormatterMediator::getDepUriFromNode checking descriptor 'dInteratividade'
+FormatterMediator::getDepUriFromNode checking descriptor 'dTemperatura'
+FormatterMediator::getDepUriFromNode checking descriptor 'dTemperatura'
+FormatterMediator::getDepUriFromNode checking descriptor 'dTemperatura'
+FormatterMultiDevice::addActiveUris activeBaseUri=C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\
+ExecutionObject::addEvent '-1_1' in '-1\'
+ExecutionObject::addPresentationEvent in '-1\'. Call transition manager addPresentationEvent for '-1_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\', perspective = '-1' and parent = 'NULL'
+ExecutionObject::addEvent 'main_1' in '-1\main\'
+ExecutionObject::addPresentationEvent in '-1\main\'. Call transition manager addPresentationEvent for 'main_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\main\', perspective = '-1\main' and parent = '-1\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\main\'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\main\videoPrincipal\dPrincipal', perspective = '-1\main\videoPrincipal' and parent = '-1\main\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\main\videoPrincipal\dPrincipal'
+CompositeExecutionObject::getUncompiledLinks '-1\main\' has '6' uncompiled links
+FormatterConverter::compileExecutionObjectLinks processing ncmLink 'onBeginStart' inside '-1\main\'
+Link::containsNode searching 'videoPrincipal' inside link 'onBeginStart' (1 condition binds)
+Link::containsNode link 'onBeginStart' has 'videoPrincipal' with descriptor = 'dPrincipal'
+CompositeExecutionObject::removeLinkUncompiled 'onBeginStart'
+FormatterLinkConverter::createCausalLink inside '-1\main\' from ncmlinkId 'onBeginStart'
+CascadingDescriptor::~CascadingDescriptor(dPrincipal)
+ExecutionObject::addEvent 'showInteratividade_1' in '-1\main\videoPrincipal\dPrincipal'
+ExecutionObject::addPresentationEvent in '-1\main\videoPrincipal\dPrincipal'. Call transition manager addPresentationEvent for 'showInteratividade_1' begin = '5000'; end = '10000' position = '0'
+EventTransitionManager::addEventTransition(02012550) for event 'showInteratividade_1': begin = '5000'; end = '10000'; pos = '0'; type = '2'. Transition time = '5000'
+EventTransitionManager::addEventTransition(02012550) for event 'showInteratividade_1': begin = '5000'; end = '10000'; pos = '1'; type = '2'. Transition time = '10000'
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\main\interatividade\dInteratividade', perspective = '-1\main\interatividade' and parent = '-1\main\'
+ExecutionObject::addEvent 'interatividade_1' in '-1\main\interatividade\dInteratividade'
+ExecutionObject::addPresentationEvent in '-1\main\interatividade\dInteratividade'. Call transition manager addPresentationEvent for 'interatividade_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED 'onBeginStart'
+FormatterConverter::compileExecutionObjectLinks processing ncmLink 'onEndStop' inside '-1\main\'
+Link::containsNode searching 'videoPrincipal' inside link 'onEndStop' (1 condition binds)
+Link::containsNode link 'onEndStop' has 'videoPrincipal' with descriptor = 'dPrincipal'
+CompositeExecutionObject::removeLinkUncompiled 'onEndStop'
+FormatterLinkConverter::createCausalLink inside '-1\main\' from ncmlinkId 'onEndStop'
+CascadingDescriptor::~CascadingDescriptor(dPrincipal)
+CascadingDescriptor::~CascadingDescriptor(dInteratividade)
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\main\gru\dTemperatura', perspective = '-1\main\gru' and parent = '-1\main\'
+ExecutionObject::addEvent 'gru_1' in '-1\main\gru\dTemperatura'
+ExecutionObject::addPresentationEvent in '-1\main\gru\dTemperatura'. Call transition manager addPresentationEvent for 'gru_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED 'onEndStop'
+FormatterConverter::compileExecutionObjectLinks processing ncmLink 'onEndStopGru' inside '-1\main\'
+Link::containsNode searching 'videoPrincipal' inside link 'onEndStopGru' (1 condition binds)
+Link::containsNode link 'onEndStopGru' has 'videoPrincipal' with descriptor = 'dPrincipal'
+CompositeExecutionObject::removeLinkUncompiled 'onEndStopGru'
+FormatterLinkConverter::createCausalLink inside '-1\main\' from ncmlinkId 'onEndStopGru'
+CascadingDescriptor::~CascadingDescriptor(dPrincipal)
+ExecutionObject::addEvent 'showTempGRU_1' in '-1\main\videoPrincipal\dPrincipal'
+ExecutionObject::addPresentationEvent in '-1\main\videoPrincipal\dPrincipal'. Call transition manager addPresentationEvent for 'showTempGRU_1' begin = '10000'; end = '15000' position = '1'
+EventTransitionManager::addEventTransition(02012550) for event 'showTempGRU_1': begin = '10000'; end = '15000'; pos = '1'; type = '2'. Transition time = '10000'
+EventTransitionManager::addEventTransition(02012550) for event 'showTempGRU_1': begin = '10000'; end = '15000'; pos = '3'; type = '2'. Transition time = '15000'
+CascadingDescriptor::~CascadingDescriptor(dTemperatura)
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\main\poa\dTemperatura', perspective = '-1\main\poa' and parent = '-1\main\'
+ExecutionObject::addEvent 'poa_1' in '-1\main\poa\dTemperatura'
+ExecutionObject::addPresentationEvent in '-1\main\poa\dTemperatura'. Call transition manager addPresentationEvent for 'poa_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED 'onEndStopGru'
+FormatterConverter::compileExecutionObjectLinks processing ncmLink 'onEndStopPoa' inside '-1\main\'
+Link::containsNode searching 'videoPrincipal' inside link 'onEndStopPoa' (1 condition binds)
+Link::containsNode link 'onEndStopPoa' has 'videoPrincipal' with descriptor = 'dPrincipal'
+CompositeExecutionObject::removeLinkUncompiled 'onEndStopPoa'
+FormatterLinkConverter::createCausalLink inside '-1\main\' from ncmlinkId 'onEndStopPoa'
+CascadingDescriptor::~CascadingDescriptor(dPrincipal)
+ExecutionObject::addEvent 'showTempPOA_1' in '-1\main\videoPrincipal\dPrincipal'
+ExecutionObject::addPresentationEvent in '-1\main\videoPrincipal\dPrincipal'. Call transition manager addPresentationEvent for 'showTempPOA_1' begin = '15000'; end = '20000' position = '2'
+EventTransitionManager::addEventTransition(02012550) for event 'showTempPOA_1': begin = '15000'; end = '20000'; pos = '3'; type = '2'. Transition time = '15000'
+EventTransitionManager::addEventTransition(02012550) for event 'showTempPOA_1': begin = '15000'; end = '20000'; pos = '5'; type = '2'. Transition time = '20000'
+CascadingDescriptor::~CascadingDescriptor(dTemperatura)
+FormatterConverter::getExecutionObjectFromPerspective Adding_object with id = '-1\main\jpa\dTemperatura', perspective = '-1\main\jpa' and parent = '-1\main\'
+ExecutionObject::addEvent 'jpa_1' in '-1\main\jpa\dTemperatura'
+ExecutionObject::addPresentationEvent in '-1\main\jpa\dTemperatura'. Call transition manager addPresentationEvent for 'jpa_1' begin = '0'; end = '1.#INF' position = '-1'
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED 'onEndStopPoa'
+FormatterConverter::compileExecutionObjectLinks processing ncmLink 'onEndStopJpa' inside '-1\main\'
+Link::containsNode searching 'videoPrincipal' inside link 'onEndStopJpa' (1 condition binds)
+Link::containsNode link 'onEndStopJpa' has 'videoPrincipal' with descriptor = 'dPrincipal'
+CompositeExecutionObject::removeLinkUncompiled 'onEndStopJpa'
+FormatterLinkConverter::createCausalLink inside '-1\main\' from ncmlinkId 'onEndStopJpa'
+CascadingDescriptor::~CascadingDescriptor(dPrincipal)
+ExecutionObject::addEvent 'showTempJPA_1' in '-1\main\videoPrincipal\dPrincipal'
+ExecutionObject::addPresentationEvent in '-1\main\videoPrincipal\dPrincipal'. Call transition manager addPresentationEvent for 'showTempJPA_1' begin = '20000'; end = '25000' position = '3'
+EventTransitionManager::addEventTransition(02012550) for event 'showTempJPA_1': begin = '20000'; end = '25000'; pos = '5'; type = '2'. Transition time = '20000'
+EventTransitionManager::addEventTransition(02012550) for event 'showTempJPA_1': begin = '20000'; end = '25000'; pos = '7'; type = '2'. Transition time = '25000'
+CascadingDescriptor::~CascadingDescriptor(dTemperatura)
+CascadingDescriptor::~CascadingDescriptor(dInteratividade)
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED 'onEndStopJpa'
+FormatterConverter::compileExecutionObjectLinks processing ncmLink 'onEndAbortVideoPrincipal' inside '-1\main\'
+Link::containsNode searching 'videoPrincipal' inside link 'onEndAbortVideoPrincipal' (1 condition binds)
+Link::containsNode link 'onEndAbortVideoPrincipal' has 'videoPrincipal' with descriptor = 'dPrincipal'
+CompositeExecutionObject::removeLinkUncompiled 'onEndAbortVideoPrincipal'
+FormatterLinkConverter::createCausalLink inside '-1\main\' from ncmlinkId 'onEndAbortVideoPrincipal'
+CascadingDescriptor::~CascadingDescriptor(dPrincipal)
+ExecutionObject::addEvent 'videoPrincipal_1' in '-1\main\videoPrincipal\dPrincipal'
+ExecutionObject::addPresentationEvent in '-1\main\videoPrincipal\dPrincipal'. Call transition manager addPresentationEvent for 'videoPrincipal_1' begin = '0'; end = '1.#INF' position = '-1'
+CascadingDescriptor::~CascadingDescriptor(dInteratividade)
+FormatterConverter::compileExecutionObjectLinks LINKCOMPILED 'onEndAbortVideoPrincipal'
+FormatterConverter::compileExecutionObjectLinks object = '-1\main\videoPrincipal\dPrincipal'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+FormatterMediator::initializeSettingNodes checking 'videoPrincipal'
+FormatterMediator::initializeSettingNodes checking 'interatividade'
+FormatterMediator::initializeSettingNodes checking 'gru'
+FormatterMediator::initializeSettingNodes checking 'poa'
+FormatterMediator::initializeSettingNodes checking 'jpa'
+PresentationEngineManager::startPresentation
+PresentationEngineManager::getNclPlayer
+PresentationEngineManager::startPresentation play 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\parte1.ncl'
+FormatterScheduler::startDocument Through event 'main_1'
+PresentationContext::getPropertyValue prop 'default.focusBorderTransparency' == '0'
+PresentationContext::getPropertyValue prop 'default.focusBorderColor' == 'blue'
+PresentationContext::getPropertyValue prop 'default.focusBorderWidth' == '3'
+PresentationContext::getPropertyValue prop 'default.selBorderColor' == 'green'
+FormatterScheduler::runAction acquiring player for '-1\main\videoPrincipal\dPrincipal' PlayerAdapterManager::getPlayerClass is finding a suitable player
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+RuleAdapter::adaptDescriptor for '-1\main\videoPrincipal\dPrincipal'
+RuleAdapter::adaptDescriptor first unsolved descriptor address '00000000'
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+AVPlayer::createProvider 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4'
+SDL2ffmpeg::read_init context flags = '0'
+SDL2ffmpeg::openStreams 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4' doesn't have any audio stream!
+SDL2ffmpeg::openStreams 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4' doesn't have any subtitle stream!
+AVPlayer::createProvider 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4' all done
+FormatterPlayerAdapter::createPlayer for 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4' object = '-1\main\videoPrincipal\dPrincipal' objectDevice = '0'
+ExecutionObject::prepare(-1\main\videoPrincipal\dPrincipal) 2nd call addEventListener '020127D8' or '020128B4'
+Player::setScope 'videoPrincipal'
+FormatterLayout::prepareFormatterRegion for '-1\main\videoPrincipal\dPrincipal'
+FormatterRegion::prepareOutputDisplay '01FF6630' created with left   = '0' top    = '0' width  = '854' height = '480' 
+SDLWindow::renderFrom(01FF6630) Warning! NULL underlying surface!
+FormatterLayout::prepareFormatterRegion deviceRegion class is '0'
+AVPlayer::play() calling provider play over
+SDLVideoProvider::playOver
+AVPlayer::play(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) all done!
+FormatterScheduler::eventStateChanged 'videoPrincipal_1' transition '0'
+FormatterMultiDevice::showObject '-1\main\videoPrincipal\dPrincipal' class '0'
+FormatterRegion::setRegionVisibility 'dPrincipal): '01FF6630' SHOW
+FormatterFocusManager::showObject 'videoPrincipal' with focus index = '' current focus = ''
+PresentationContext::getPropertyValue prop 'service.currentKeyMaster' has a NULL value
+EntryEventListener::eventStateChanged parent id = '-1\main\' parent is running = '1' interface id = 'pVideoPrincipal' events running = '0'
+PresentationEngineManager::updateStatus
+FormatterScheduler::eventStateChanged 'main_1' transition '0'
+FormatterPlayerAdapter::checkAnchorMonitor creating TIME NominalEventMonitor for '-1\main\videoPrincipal\dPrincipal'
+FormatterScheduler::runAction takes '19' ms to start '-1\main\videoPrincipal\dPrincipal'
+LinkSimpleAction::~LinkSimpleAction
+AVPlayer::run
+AVPlayer::run total media time that will be considered  is '70.57'SDL2ffmpeg::play called
+
+SDL2ffmpeg::prepare Video frame rate is '2997/100'
+SDL2ffmpeg::prepare Video average frame rate is '2997/100'
+SDL2ffmpeg::prepare Video time base frame rate is '1/2997'
+FormatterScheduler::startDocument Through event 'main_1' started '1' events
+PresentationEngineManager::waitUnlockCondition
+====== Anchor Monitor Activated for '-1\main\videoPrincipal\dPrincipal' (02023A20 ======
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) master_clock = '1.35456e+009' (duration = '70570')
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) current_pts = '0' (duration = '70570')
+ANCHORMONITOR NEXTTRANSITIONTIME = '5000' MEDIATIME = '0' EXPECTEDSLEEPTIME = '5000' (02023A20)
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) master_clock = '0.857168' (duration = '70570')
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) current_pts = '0.834168' (duration = '70570')
+AVPlayer::run dur = '70.57' curMediaTime = '0.834168' total = '70.57' for 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4'
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) master_clock = '5.00064' (duration = '70570')
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) current_pts = '4.97164' (duration = '70570')
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) master_clock = '5.00064' (duration = '70570')
+SDL2ffmpeg::getPosition(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\animGar.mp4) current_pts = '4.97164' (duration = '70570')
+ANCHORMONITOR NEXTTRANSITIONTIME = '10000' MEDIATIME = '4971.64' EXPECTEDSLEEPTIME = '5028.36' (02023A20)
+CompositeExecutionObject::linkEvaluationFinished(-1\main\) 'onBeginStart'
+FormatterConverter::compileExecutionObjectLinks object = '-1\main\interatividade\dInteratividade'
+CompositeExecutionObject::getUncompiledLinks '-1\main\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\main\'
+FormatterConverter::compileExecutionObjectLinks object = '-1\main\'
+CompositeExecutionObject::getUncompiledLinks '-1\' has '0' uncompiled links
+FormatterConverter::compileExecutionObjectLinks all links are already compiled for '-1\'
+FormatterScheduler::runAction acquiring player for '-1\main\interatividade\dInteratividade' PlayerAdapterManager::getPlayerClass is finding a suitable player
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+RuleAdapter::adaptDescriptor for '-1\main\interatividade\dInteratividade'
+RuleAdapter::adaptDescriptor first unsolved descriptor address '00000000'
+FormatterPlayerAdapter::hasPrepared return false because object = '00000000' and player = '00000000'
+FormatterPlayerAdapter::prepareProperties(C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\interatividade.png) param 'transparency' with value '20%'
+FormatterPlayerAdapter::prepareProperties parent opacity is '1' original transparency property is '20' new value is '0.2'
+ImagePlayerAdapter::createPlayer 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\interatividade.png'
+ImagePlayerAdapter::createPlayer 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\interatividade.png' ALL DONE
+FormatterPlayerAdapter::createPlayer for 'C:\Diego\UFPB\P8\Dispositivos Moveis\Projeto\media\interatividade.png' object = '-1\main\interatividade\dInteratividade' objectDevice = '0'
+ExecutionObject::prepare(-1\main\interatividade\dInteratividade) 2nd call addEventListener '020127D8' or '020128B4'
+Player::setScope 'interatividade'
+FormatterLayout::prepareFormatterRegion for '-1\main\interatividade\dInteratividade'
+FormatterRegion::prepareOutputDisplay '01FF66B8' created with left   = '761' top    = '24' width  = '50' height = '50' 
+FormatterLayout::prepareFormatterRegion deviceRegion class is '0'
+FormatterScheduler::eventStateChanged 'interatividade_1' transition '0'
+FormatterMultiDevice::showObject '-1\main\interatividade\dInteratividade' class '0'
+FormatterRegion::setRegionVisibility 'dInteratividade): '01FF66B8' SHOW
+FormatterFocusManager::showObject 'interatividade' with focus index = '' current focus = ''
+PresentationContext::getPropertyValue prop 'service.currentKeyMaster' has a NULL value
+FormatterPlayerAdapter::checkAnchorMonitor can't create TIME NominalEventMonitor for '-1\main\interatividade\dInteratividade' because next transition = '1.#INF' 
+FormatterScheduler::runAction takes '3' ms to start '-1\main\interatividade\dInteratividade'
