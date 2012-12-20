@@ -3,7 +3,7 @@ local http = require 'http'
 
 PROPRIEDADE_NOME = 'mensagemPOA'
 
-local URL = "http://10.130.14.20/poa.txt"
+local URL = "http://h264.lavid.ufpb.br/~alan/poa.txt"
 
 function handler (e)
 
