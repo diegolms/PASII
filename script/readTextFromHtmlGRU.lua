@@ -3,7 +3,7 @@ local http = require 'http'
 
 PROPRIEDADE_NOME = 'mensagemGRU'
 
-local URL = "http://10.130.14.20/gru.txt"
+local URL = "http://h264.lavid.ufpb.br/~alan/gru.txt"
 
 function handler (e)
 
